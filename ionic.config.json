@@ -1,5 +1,7 @@
 {
   "name": "deeplinks",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
