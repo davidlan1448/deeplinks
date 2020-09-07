@@ -31,9 +31,9 @@ export class AppComponent {
 
   private deeplinkSetup(): void {
     this.deeplinks.route({
-      '': ''
+      '/:pagos24User': 'home'
     }).subscribe(match => {
       alert(JSON.stringify(match));
-    })
+    });
   }
 }
